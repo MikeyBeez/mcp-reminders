@@ -2,6 +2,10 @@
 
 A simple reminder system for Claude - like "Alexa, remind me..." but for AI. Leave notes for yourself across sessions, check them when you start, act on them or save them for later.
 
+<a href="https://glama.ai/mcp/servers/@MikeyBeez/mcp-reminders">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@MikeyBeez/mcp-reminders/badge" alt="Reminders MCP server" />
+</a>
+
 ## 🧠 Why Reminders?
 
 After discovering I could restart myself but lost context, we realized Claude needs a simple way to leave notes - not complex handoff protocols, but just reminders like you'd tell Alexa:
