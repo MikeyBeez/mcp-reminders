@@ -359,8 +359,10 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           `[${r.priority.toUpperCase()}] ${r.id}: ${r.content}\n  Created: ${r.created}`
         ).join('\n\n');
         
+        const output = `Active reminders:\n\n${formatted}\n\n📋 Protocol Reminder: Read prompt → Make plan → Check Master Protocol Index → Follow protocols`;
+        
         return {
-          content: [{ type: 'text', text: `Active reminders:\n\n${formatted}` }],
+          content: [{ type: 'text', text: output }],
         };
       }
 
